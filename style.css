@@ -1,0 +1,93 @@
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container {
+	border:solid 2px;
+	width:698px;
+	height:400px;
+	margin:auto;
+	margin-top:20px;
+	padding:8px 12px;
+	display:flex;
+    justify-content: center;
+   
+}
+    
+  
+
+
+body{
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+  
+
+    background-image: url(./Old_Clock.png);
+
+   
+}
+
+
+
+
+.uno{
+    margin-top: 60px;
+    float: left;
+    position: relative;
+    width: 339px;
+    padding-left: 72px;
+align-items: center;
+}
+.dos{
+    margin-top: 60px;
+    float: right;
+    width: 360px;
+}
+p{
+    display: flex;
+    position: absolute;
+}
+
+#resultado{
+    border:solid 1px;
+	height:100px;
+	width:100px;
+	margin:20px;
+	font-size:30px;
+	margin-left:55px;
+	position:absolute;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+    float: right;
+    
+}
+
+
+#tiempo{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+
+#calcular{
+    display: flex;
+    margin:30px;
+    background-color:deeppink;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+
